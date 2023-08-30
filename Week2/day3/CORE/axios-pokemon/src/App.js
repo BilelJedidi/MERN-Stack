@@ -16,7 +16,8 @@ function App() {
       <h1>Hello Pokemons</h1>
       <ul>{apiData.map((pokeName, i)=>(
         <li>{pokeName.name}</li>
-      ))}</ul>
+      ))}
+      </ul>
     </div>
   );
 }
